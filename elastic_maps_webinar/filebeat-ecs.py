@@ -32,7 +32,7 @@ message = ["Potential Corporate Privacy Violation","Generic Protocol Command Dec
 network_protocol = ["http","ssh","failed","tls","ntp","dns","tftp","ikev2","krb5"]
 network_transport = ["tcp","udp","icmp","sctp"]
 cloud_availability_zone = "projects/238712873821/zones/us-east1-b"
-cloud_instance_name = "siem-kibana"
+cloud_instance_name = "suricata-ems"
 cloud_instance_id = "2982319812023902193"
 cloud_provider = "gce"
 cloud_machine_type = "projects/238712873821/machineTypes/n1-standard-1"
@@ -162,7 +162,7 @@ while True:
                 "platform": random.choice(host_os_platform)
               },
               "containerized": "false",
-              "name": "siem-kibana",
+              "name": "suricata-ems",
               "id": random.choice(host_id),
               "architecture": random.choice(host_architecture)
             },
