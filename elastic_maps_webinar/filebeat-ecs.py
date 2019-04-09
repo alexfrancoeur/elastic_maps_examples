@@ -7,6 +7,7 @@ import time
 import random
 import datetime
 import pytz
+import uuid
 
 try:
     es = elasticsearch.Elasticsearch(["localhost"],port=9200)
@@ -20,8 +21,6 @@ destination_location_data = [{"country": "US","name": "Ashburn","lat": "38.41498
 
 # fake suricata data
 agent_hostname = ["suricata-tokyo", "suricata-saopaulo", "suricata-ashburn", "suricata-losangeles","suricata-frankfurt"]
-agent_ephemeral_id = ["70adc3bf-ca18-47ff-9139-725ef775616c","2586f720-afb7-479a-b694-3b9fe4202c7c","8c1ecbae-88a8-41d2-8a17-d3204e77ab24","b3175d13-260d-48b3-8a2e-29e0d53214e8","1c4d8723-77ca-4d2b-8292-2e32f3265d57","d18fa8a2-641f-43d0-b4c6-913a2ff9fb45","b8eeb653-3589-4d0f-a71b-511511723551","9b0daa7a-c56a-4974-a3dd-b7bdb3b05970","b948aa65-4384-44d8-af57-2ce89eeb0944","39979d3a-3400-4fc9-a841-30edd043257d"]
-agent_id = ["30a14f92-9d08-473d-9051-a73dc6ef8200","50f689dc-e554-4ca2-bc3b-a151528b511b","13b22062-2b55-45d6-9f81-0d38159e48bf","902d35f9-d56e-40fd-a914-91dc8c20945a","a8b3fd60-21e5-421e-a201-32d59d51a389","96984869-1395-469b-8be9-87bad5ce7447","87f275c4-d4a5-4b9d-82ef-51d04d849d75","baad848f-ac61-40ee-8eb9-f2fc40d8071e","5451e2ec-acc6-41c7-a177-6012d1088e55","976b0751-4ecb-4547-b0f9-61597efdcbd8"]
 agent_type = "filebeat"
 agent_version = "7.0.0"
 log_file_path = ["/var/log/bro/current/conn.log","/var/log/suricata/eve.json","/var/log/auth.log","/home/tsg/suricata-logs/logs/eve-result.json","/var/log/bro/current/dns.log","/var/log/bro/current/http.log","/var/log/bro/current/notice.log","/var/log/bro/current/ssl.log"]
@@ -36,7 +35,7 @@ cloud_instance_name = "suricata-ems"
 cloud_instance_id = "2982319812023902193"
 cloud_provider = "gce"
 cloud_machine_type = "projects/238712873821/machineTypes/n1-standard-1"
-clound_project = "elastic-beats"
+cloud_project = "elastic-beats"
 input_type = "log"
 service_type = "suricata"
 host_hostname = ["suricata-tokyo", "suricata-saopaulo", "suricata-ashburn", "suricata-losangeles","suricata-frankfurt"]
@@ -47,7 +46,6 @@ host_os_name = ["Ubuntu","Raspbian GNU/Linux","Debian GNU/Linux"]
 host_os_version = ["18.04.2 LTS (Bionic Beaver)","9 (stretch)"]
 host_os_platform = ["ubuntu","raspbian","debian"]
 host_architecture = ["x86_64","armv7l"]
-host_id = ["ed8d6b6df2ba45979b78ccd1160abcb4","9dbb083851504e2ba1b9676dfbc91cce","b2852675715144e68492a93a5f7b6aee","e95b06c85b2a4ef58b16c4ab5c3fd3ce","a396032996954ea2aa27a8ae01d39bc2","81c6594cabd44c5489f24a6b1cebdd4f","c8014c5f61334a15b81ed01965ae5e5d","3dfc381504254e6cbd89b557de00ef39","249ef9975085471f864b4602b26df829","6a21d8a59c7044e386437383f3168a28"]
 suricata_eve_event_type = ["flow","ssh","alert","dns","http","fileinfo","tftp","tls","ikev2"]
 suricata_eve_alert_signature_id = [2402000,2260002,2018959,2001219,2210044,2500024,2011716,2008578,2010935,2210050]
 suricata_eve_alert_signature = ["ET DROP Dshield Block Listed Source group 1","SURICATA Applayer Detect protocol only one direction","ET POLICY PE EXE or DLL Windows file download HTTP","ET SCAN Potential SSH Scan","SURICATA STREAM Packet with invalid timestamp","ET COMPROMISED Known Compromised or Hostile Host Traffic group 13","ET SCAN Sipvicious User-Agent Detected (friendly-scanner)","ET SCAN Sipvicious Scan","ET SCAN Suspicious inbound to MSSQL port 1433","SURICATA STREAM reassembly overlap with different data"]
@@ -75,8 +73,8 @@ while True:
         new_body = {
             "agent": {
               "hostname": random.choice(agent_hostname),
-              "id": random.choice(agent_id),
-              "ephemeral_id": random.choice(agent_ephemeral_id),
+              "id": str(uuid.uuid4()),
+              "ephemeral_id": str(uuid.uuid4()),
               "type": agent_type,
               "version": agent_version
             },
@@ -138,7 +136,7 @@ while True:
                 "type": cloud_machine_type
               },
               "project": {
-                "id": clound_project
+                "id": cloud_project
               }
             },
             "input": {
@@ -163,7 +161,7 @@ while True:
               },
               "containerized": "false",
               "name": "suricata-ems",
-              "id": random.choice(host_id),
+              "id": str(uuid.uuid4().hex),
               "architecture": random.choice(host_architecture)
             },
             "suricata": {
