@@ -15,4 +15,4 @@ If you are not adding the map to the default space, you'll need to add the space
 curl -X POST 'http://localhost:5601/s/SPACENAME/api/saved_objects/map/' -H 'Content-Type: application/json' -H "kbn-xsrf: true" -d "@boston_traffic.json"
 ```
 
-![screenshot](https://github.com/alexfrancoeur/elastic_maps_examples/blob/master/images/boston_traffic.png)
+![screenshot](https://github.com/alexfrancoeur/elastic_maps_examples/blob/master/images/boston_traffic2.png)
