@@ -1,5 +1,5 @@
 #### Traffic Data
-Load up the python script `boston_traffic.py` to with `python boston_traffic.py` to start ingesting fake and real time boston traffic data
+Load up the python script `boston_traffic.py` to with `python boston_traffic.py` to start ingesting real time boston traffic data
 
 #### Map
 Use the [Saved Object API](https://www.elastic.co/guide/en/kibana/current/saved-objects-api-create.html) to create a saved object with the JSON from `boston_traffic.json`. Be sure to also import the index pattern saved object `mass_traffic_index_pattern.json`
