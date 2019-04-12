@@ -3,10 +3,11 @@ This example is from the webinar [Elastic Maps for Geospatial Analysis](https://
 #### Mock Data
 Add the [index template](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html) found in `mappings_filebeat.json` in this directory
 
-Load up the python script `filebeat-ecs.py` to with `python filebeat-ecs.py` to start ingesting fake and randomized suricata logs
+Load up the python script `filebeat-ecs.py` with `python filebeat-ecs.py` to start ingesting fake and randomized suricata logs
 
 #### Map
-Use the [Saved Object API](https://www.elastic.co/guide/en/kibana/current/saved-objects-api-create.html) to create a saved object with the JSON from `Suricata_Events_Dark.json`. You will need a `filebeat-*` index pattern.
+Use the [Saved Object API](https://www.elastic.co/guide/en/kibana/current/saved-objects-api-create.html) to create a saved object with the JSON from `Suricata_Events_Dark.json`. Be sure to also import the index pattern saved object `filebeat_index_pattern.json`
+
 
 The following curl command should work:
 
