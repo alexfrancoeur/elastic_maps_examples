@@ -10,3 +10,6 @@ This repo is meant to provide some examples maps and data sets for Elastic Maps.
 
 #### [Live Flights](https://github.com/alexfrancoeur/elastic_maps_examples/tree/master/live_flights)
 ![screenshot](https://github.com/alexfrancoeur/elastic_maps_examples/blob/master/images/live_flights.png)
+
+#### [Pacific Crest Trail](https://github.com/alexfrancoeur/elastic_maps_examples/tree/master/mike_pct)
+![screenshot](https://github.com/alexfrancoeur/elastic_maps_examples/blob/master/images/mike_pct.png)

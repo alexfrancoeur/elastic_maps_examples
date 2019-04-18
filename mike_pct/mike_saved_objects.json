@@ -1,0 +1,945 @@
+[
+  {
+    "_id": "e35f68c0-89ca-11e8-b26e-65d1aca8670d",
+    "_type": "dashboard",
+    "_source": {
+      "title": "[Mike] Pacific Crest Trail v2.0",
+      "hits": 0,
+      "description": "This dashboard was created in July 2018 and builds off of the v1.0 dashboard to utilize features introduces in 6.x",
+      "panelsJSON": "[{\"embeddableConfig\":{\"mapCenter\":[38.084618555756784,-119.82794003561139],\"mapZoom\":6},\"gridData\":{\"h\":47,\"i\":\"1\",\"w\":20,\"x\":0,\"y\":22},\"panelIndex\":\"1\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_0\"},{\"gridData\":{\"h\":11,\"i\":\"2\",\"w\":12,\"x\":36,\"y\":22},\"panelIndex\":\"2\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_1\"},{\"gridData\":{\"h\":10,\"i\":\"6\",\"w\":14,\"x\":34,\"y\":12},\"panelIndex\":\"6\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_2\"},{\"gridData\":{\"h\":11,\"i\":\"8\",\"w\":16,\"x\":20,\"y\":22},\"panelIndex\":\"8\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_3\"},{\"gridData\":{\"h\":22,\"i\":\"12\",\"w\":18,\"x\":16,\"y\":0},\"panelIndex\":\"12\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_4\"},{\"gridData\":{\"h\":12,\"i\":\"13\",\"w\":28,\"x\":20,\"y\":68},\"panelIndex\":\"13\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_5\"},{\"embeddableConfig\":{\"vis\":{\"legendOpen\":false}},\"gridData\":{\"h\":10,\"i\":\"14\",\"w\":14,\"x\":20,\"y\":46},\"panelIndex\":\"14\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_6\"},{\"gridData\":{\"h\":6,\"i\":\"15\",\"w\":14,\"x\":34,\"y\":6},\"panelIndex\":\"15\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_7\"},{\"gridData\":{\"h\":10,\"i\":\"16\",\"w\":14,\"x\":34,\"y\":46},\"panelIndex\":\"16\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_8\"},{\"embeddableConfig\":{\"mapZoom\":5,\"mapCenter\":[41.304928316092095,-119.70263011694594]},\"gridData\":{\"h\":32,\"i\":\"17\",\"w\":20,\"x\":0,\"y\":69},\"panelIndex\":\"17\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_9\"},{\"embeddableConfig\":{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Avg. Humidity\":\"#BF1B00\",\"Sum of Distance (miles)\":\"#5195CE\"},\"legendOpen\":false}},\"gridData\":{\"h\":7,\"i\":\"18\",\"w\":28,\"x\":20,\"y\":87},\"panelIndex\":\"18\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_10\"},{\"embeddableConfig\":{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Sum of Distance (miles)\":\"#5195CE\"},\"legendOpen\":false}},\"gridData\":{\"h\":7,\"i\":\"19\",\"w\":28,\"x\":20,\"y\":80},\"panelIndex\":\"19\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_11\"},{\"embeddableConfig\":{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Sum of Distance (miles)\":\"#5195CE\"},\"legendOpen\":false}},\"gridData\":{\"h\":7,\"i\":\"20\",\"w\":28,\"x\":20,\"y\":94},\"panelIndex\":\"20\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_12\"},{\"gridData\":{\"h\":12,\"i\":\"21\",\"w\":28,\"x\":20,\"y\":56},\"panelIndex\":\"21\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_13\"},{\"gridData\":{\"h\":6,\"i\":\"22\",\"w\":14,\"x\":34,\"y\":0},\"panelIndex\":\"22\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_14\"},{\"gridData\":{\"h\":14,\"i\":\"24\",\"w\":48,\"x\":0,\"y\":101},\"panelIndex\":\"24\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_15\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":22,\"i\":\"25\",\"w\":16,\"x\":0,\"y\":0},\"panelIndex\":\"25\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_16\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":13,\"i\":\"26\",\"w\":28,\"x\":20,\"y\":33},\"panelIndex\":\"26\",\"version\":\"6.3.0\",\"panelRefName\":\"panel_17\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2018-10-06",
+      "timeFrom": "2018-03-29",
+      "refreshInterval": {
+        "display": "5 minutes",
+        "pause": false,
+        "section": 2,
+        "value": 300000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_migrationVersion": {
+      "dashboard": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "panel_0",
+        "type": "visualization",
+        "id": "06d627b0-2adc-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_1",
+        "type": "visualization",
+        "id": "807e73f0-2add-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_2",
+        "type": "visualization",
+        "id": "0b2760e0-2e33-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_3",
+        "type": "visualization",
+        "id": "c6b79550-2e33-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_4",
+        "type": "visualization",
+        "id": "3df65860-2ef5-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_5",
+        "type": "visualization",
+        "id": "734b8cd0-313c-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_6",
+        "type": "visualization",
+        "id": "ccfda0a0-313d-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_7",
+        "type": "visualization",
+        "id": "4e87b440-35b1-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_8",
+        "type": "visualization",
+        "id": "afda9720-3869-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_9",
+        "type": "visualization",
+        "id": "d3918ba0-386a-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_10",
+        "type": "visualization",
+        "id": "17075770-38c5-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_11",
+        "type": "visualization",
+        "id": "1e0ab0d0-38c5-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_12",
+        "type": "visualization",
+        "id": "23687080-38c5-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_13",
+        "type": "visualization",
+        "id": "11f2f570-38c8-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_14",
+        "type": "visualization",
+        "id": "376f4050-3f0e-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_15",
+        "type": "visualization",
+        "id": "6a378920-4d5a-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "panel_16",
+        "type": "visualization",
+        "id": "80936e40-89e2-11e8-b26e-65d1aca8670d"
+      },
+      {
+        "name": "panel_17",
+        "type": "visualization",
+        "id": "0240a790-89f3-11e8-b26e-65d1aca8670d"
+      }
+    ]
+  },
+  {
+    "_id": "de0e6590-2adb-11e8-949f-c53ef853fc65",
+    "_type": "index-pattern",
+    "_source": {
+      "title": "mike_location*",
+      "timeFieldName": "dateTime",
+      "fields": "[{\"name\":\"_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_index\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"_score\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_source\",\"type\":\"_source\",\"count\":0,\"scripted\":false,\"searchable\":false,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false},{\"name\":\"address_city\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"address_country\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"address_country_code\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"address_county\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"address_house_number\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"address_neighbourhood\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"address_postcode\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"address_raw\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"address_road\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"address_state\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"altitude\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"batteryState\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"clientUnixTime\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"dateTime\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"day_or_night\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"distance_km\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"distance_meters\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"distance_miles\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"distance_text\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"elevation_feet\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"elevation_meters\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"elevation_resolution\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"estimated_duration_seconds\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"estimated_duration_text\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"hidden\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"id\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"latitude\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"location\",\"type\":\"geo_point\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"longitude\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"messageContent\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"messageDetail\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"messageType\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"messengerId\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"messengerName\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"modelId\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"origin_distance_km\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"origin_distance_meters\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"origin_distance_miles\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"origin_distance_text\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"origin_estimated_duration_seconds\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"origin_estimated_duration_text\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"previous_location\",\"type\":\"geo_point\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"showCustomMsg\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tracker_daysRange\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tracker_description\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tracker_detailedMessageShown\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tracker_id\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tracker_name\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tracker_status\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tracker_type\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"tracker_usage\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"unixTime\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_clouds\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_humidity\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_long_description\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":false,\"readFromDocValues\":false},{\"name\":\"weather_place\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_pressure.press\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_pressure.sea_level\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_rain.1h\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_rain.3h\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_short_description\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_snow.3h\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_sunrise\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_sunset\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_temperature.temp\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_temperature.temp_kf\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_temperature.temp_max\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_temperature.temp_min\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_timestamp\",\"type\":\"date\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_wind.deg\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_wind.gust\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_wind.speed\",\"type\":\"number\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"weather_wind_direction\",\"type\":\"string\",\"count\":0,\"scripted\":false,\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":true},{\"name\":\"hour_of_day\",\"type\":\"number\",\"count\":1,\"scripted\":true,\"script\":\"doc.dateTime.value.hourOfDay\",\"lang\":\"painless\",\"searchable\":true,\"aggregatable\":true,\"readFromDocValues\":false}]",
+      "fieldFormatMap": "{\"day_or_night\":{\"id\":\"string\"},\"dateTime\":{\"id\":\"date\",\"params\":{\"pattern\":\"YYYY-MM-DD HH:mm:ss.SSS\"}},\"hour_of_day\":{}}"
+    },
+    "_migrationVersion": {
+      "index-pattern": "6.5.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "333f54b0-2d67-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] 24 Hour Distance",
+      "visState": "{\"title\":\"[Mike] 24 Hour Distance\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"metric\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"sigma\":\"\",\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"sum\",\"field\":\"distance_miles\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"24 Hour Distance\",\"value_template\":\"{{value}} mi\"}],\"time_field\":\"dateTime\",\"index_pattern\":\"mike_location*\",\"interval\":\">=1d\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"background_color_rules\":[{\"id\":\"ca094780-2d66-11e8-a044-77da027f3973\"}],\"drop_last_bucket\":0},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "8f7928a0-4cd4-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Mikes Location Street View",
+      "visState": "{\"title\":\"[Mike] Mikes Location Street View\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"markdown\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"avg\",\"field\":\"longitude\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"longitude\"},{\"id\":\"4b4c9c50-2ef4-11e8-97e6-f5b0f1cc3010\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"4b4c9c51-2ef4-11e8-97e6-f5b0f1cc3010\",\"type\":\"avg\",\"field\":\"latitude\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"latitude\"}],\"time_field\":\"dateTime\",\"index_pattern\":\"mike_location*\",\"interval\":\">=1d\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"markdown\":\"![Mike's Location](https://maps.googleapis.com/maps/api/streetview?size=600x300&location={{ latitude.last.raw }},{{ longitude.last.raw }}&key=AIzaSyAAXZQhIIDPQMY2dgnd-uv0cnxIF0mWALc)\",\"drop_last_bucket\":1,\"background_color_rules\":[{\"id\":\"7482f0d0-313b-11e8-86e5-19d9d4740a54\"}],\"gauge_color_rules\":[{\"id\":\"3d296c30-4cd5-11e8-85a2-3b3ae8a58056\"}],\"gauge_width\":10,\"gauge_inner_width\":10,\"gauge_style\":\"half\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "1d5d48f0-2e34-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Controls",
+      "visState": "{\"title\":\"[Mike] Controls\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1521766155605\",\"fieldName\":\"weather_place\",\"label\":\"Place\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"},{\"id\":\"1525180491670\",\"fieldName\":\"weather_temperature.temp\",\"label\":\"Temperature\",\"type\":\"range\",\"options\":{\"decimalPlaces\":0,\"step\":1},\"indexPatternRefName\":\"control_1_index_pattern\"}],\"updateFiltersOnChange\":false,\"useTimeFilter\":false},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "control_0_index_pattern",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "control_1_index_pattern",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "ed336ba0-2e33-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Distance Over Time",
+      "visState": "{\"title\":\"[Mike] Distance Over Time\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"sigma\":\"\",\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"max\",\"field\":\"distance_miles\"},{\"sigma\":\"\",\"id\":\"d3461620-2d66-11e8-a044-77da027f3973\",\"type\":\"min\",\"field\":\"distance_miles\"},{\"script\":\"params.max-params.min\",\"id\":\"dcf8b100-2d66-11e8-a044-77da027f3973\",\"type\":\"calculation\",\"variables\":[{\"id\":\"e2048020-2d66-11e8-a044-77da027f3973\",\"name\":\"max\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"},{\"id\":\"e6595b50-2d66-11e8-a044-77da027f3973\",\"name\":\"min\",\"field\":\"d3461620-2d66-11e8-a044-77da027f3973\"}]}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"2\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"Distance Traveled\",\"value_template\":\"{{value}} miles\"},{\"id\":\"6d947760-2f6c-11e8-b771-b553fcb73f52\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"6d947761-2f6c-11e8-b771-b553fcb73f52\",\"type\":\"avg\",\"field\":\"elevation_meters\"}],\"seperate_axis\":1,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"2\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"Elevation\",\"value_template\":\"{{value}} meters\"}],\"time_field\":\"dateTime\",\"index_pattern\":\"mike_location*\",\"interval\":\">=1h\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":0,\"background_color_rules\":[{\"id\":\"ca094780-2d66-11e8-a044-77da027f3973\"}],\"drop_last_bucket\":1,\"legend_position\":\"bottom\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "9b09be60-89f5-11e8-b26e-65d1aca8670d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] SPLOM",
+      "visState": "{\"title\":\"[Mike] SPLOM\",\"type\":\"vega\",\"params\":{\"spec\":\"{\\n  \\\"$schema\\\": \\\"https://vega.github.io/schema/vega/v3.3.1.json\\\",\\n  \\\"padding\\\": 10,\\n  \\\"config\\\": {\\n    \\\"axis\\\": {\\n      \\\"tickColor\\\": \\\"#ccc\\\"\\n    }\\n  },\\n  \\\"signals\\\": [\\n    { \\\"name\\\": \\\"chartSize\\\", \\\"value\\\": 120 },\\n    { \\\"name\\\": \\\"chartPad\\\", \\\"value\\\": 0 },\\n    { \\\"name\\\": \\\"chartStep\\\", \\\"update\\\": \\\"chartSize + chartPad\\\" },\\n    { \\\"name\\\": \\\"width\\\", \\\"update\\\": \\\"chartStep * 4\\\" },\\n    { \\\"name\\\": \\\"height\\\", \\\"update\\\": \\\"chartStep * 4\\\" },\\n    {\\n      \\\"name\\\": \\\"cell\\\", \\\"value\\\": null,\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": \\\"@cell:mousedown\\\", \\\"update\\\": \\\"group()\\\"\\n        },\\n        {\\n          \\\"events\\\": \\\"@cell:mouseup\\\",\\n          \\\"update\\\": \\\"!span(brushX) && !span(brushY) ? null : cell\\\"\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"brushX\\\", \\\"value\\\": 0,\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": \\\"@cell:mousedown\\\",\\n          \\\"update\\\": \\\"[x(cell), x(cell)]\\\"\\n        },\\n        {\\n          \\\"events\\\": \\\"[@cell:mousedown, window:mouseup] > window:mousemove\\\",\\n          \\\"update\\\": \\\"[brushX[0], clamp(x(cell), 0, chartSize)]\\\"\\n        },\\n        {\\n          \\\"events\\\": {\\\"signal\\\": \\\"delta\\\"},\\n          \\\"update\\\": \\\"clampRange([anchorX[0] + delta[0], anchorX[1] + delta[0]], 0, chartSize)\\\"\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"brushY\\\", \\\"value\\\": 0,\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": \\\"@cell:mousedown\\\",\\n          \\\"update\\\": \\\"[y(cell), y(cell)]\\\"\\n        },\\n        {\\n          \\\"events\\\": \\\"[@cell:mousedown, window:mouseup] > window:mousemove\\\",\\n          \\\"update\\\": \\\"[brushY[0], clamp(y(cell), 0, chartSize)]\\\"\\n        },\\n        {\\n          \\\"events\\\": {\\\"signal\\\": \\\"delta\\\"},\\n          \\\"update\\\": \\\"clampRange([anchorY[0] + delta[1], anchorY[1] + delta[1]], 0, chartSize)\\\"\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"down\\\", \\\"value\\\": [0, 0],\\n      \\\"on\\\": [{\\\"events\\\": \\\"@brush:mousedown\\\", \\\"update\\\": \\\"[x(cell), y(cell)]\\\"}]\\n    },\\n    {\\n      \\\"name\\\": \\\"anchorX\\\", \\\"value\\\": null,\\n      \\\"on\\\": [{\\\"events\\\": \\\"@brush:mousedown\\\", \\\"update\\\": \\\"slice(brushX)\\\"}]\\n    },\\n    {\\n      \\\"name\\\": \\\"anchorY\\\", \\\"value\\\": null,\\n      \\\"on\\\": [{\\\"events\\\": \\\"@brush:mousedown\\\", \\\"update\\\": \\\"slice(brushY)\\\"}]\\n    },\\n    {\\n      \\\"name\\\": \\\"delta\\\", \\\"value\\\": [0, 0],\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": \\\"[@brush:mousedown, window:mouseup] > window:mousemove\\\",\\n          \\\"update\\\": \\\"[x(cell) - down[0], y(cell) - down[1]]\\\"\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"rangeX\\\", \\\"value\\\": [0, 0],\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": {\\\"signal\\\": \\\"brushX\\\"},\\n          \\\"update\\\": \\\"invert(cell.datum.x.data + 'X', brushX)\\\"\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"rangeY\\\", \\\"value\\\": [0, 0],\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": {\\\"signal\\\": \\\"brushY\\\"},\\n          \\\"update\\\": \\\"invert(cell.datum.y.data + 'Y', brushY)\\\"\\n        }\\n      ]\\n    },\\n    {\\n      \\\"name\\\": \\\"cursor\\\", \\\"value\\\": \\\"'default'\\\",\\n      \\\"on\\\": [\\n        {\\n          \\\"events\\\": \\\"[@cell:mousedown, window:mouseup] > window:mousemove!\\\",\\n          \\\"update\\\": \\\"'nwse-resize'\\\"\\n        },\\n        {\\n          \\\"events\\\": \\\"@brush:mousemove, [@brush:mousedown, window:mouseup] > window:mousemove!\\\",\\n          \\\"update\\\": \\\"'move'\\\"\\n        },\\n        {\\n          \\\"events\\\": \\\"@brush:mouseout, window:mouseup\\\",\\n          \\\"update\\\": \\\"'default'\\\"\\n        }\\n      ]\\n    }\\n  ],\\n\\n  \\\"data\\\": [\\n    {\\n      \\\"name\\\": \\\"splom\\\",\\n      \\\"url\\\": {\\n      \\\"%context%\\\": true,\\n      \\\"%timefield%\\\": \\\"dateTime\\\",\\n      \\\"index\\\": \\\"mike_location*\\\",\\n      \\\"body\\\": {\\n        \\\"size\\\": 10000,\\n        \\\"_source\\\": [\\n          \\\"elevation_feet\\\",\\n          \\\"weather_temperature.temp\\\",\\n          \\\"weather_wind.speed\\\",\\n          \\\"weather_humidity\\\",\\n          \\\"weather_short_description\\\"\\n        ]\\n      }\\n    },\\n    \\\"format\\\": {\\\"property\\\": \\\"hits.hits\\\"}\\n    },\\n    {\\n      \\\"name\\\": \\\"fields\\\",\\n      \\\"values\\\": [\\\"_source.elevation_feet\\\", \\\"_source.weather_temperature.temp\\\", \\\"_source.weather_wind.speed\\\", \\\"_source.weather_humidity\\\"]\\n    },\\n    {\\n      \\\"name\\\": \\\"cross\\\",\\n      \\\"source\\\": \\\"fields\\\",\\n      \\\"transform\\\": [\\n        { \\\"type\\\": \\\"cross\\\", \\\"as\\\": [\\\"x\\\", \\\"y\\\"] },\\n        { \\\"type\\\": \\\"formula\\\", \\\"as\\\": \\\"xscale\\\", \\\"expr\\\": \\\"datum.x.data + 'X'\\\" },\\n        { \\\"type\\\": \\\"formula\\\", \\\"as\\\": \\\"yscale\\\", \\\"expr\\\": \\\"datum.y.data + 'Y'\\\" }\\n      ]\\n    }\\n  ],\\n\\n  \\\"scales\\\": [\\n    {\\n      \\\"name\\\": \\\"groupx\\\",\\n      \\\"type\\\": \\\"band\\\",\\n      \\\"range\\\": \\\"width\\\",\\n      \\\"domain\\\": {\\\"data\\\": \\\"fields\\\", \\\"field\\\": \\\"data\\\"}\\n    },\\n    {\\n      \\\"name\\\": \\\"groupy\\\",\\n      \\\"type\\\": \\\"band\\\",\\n      \\\"range\\\": [{\\\"signal\\\": \\\"height\\\"}, 0],\\n      \\\"domain\\\": {\\\"data\\\": \\\"fields\\\", \\\"field\\\": \\\"data\\\"}\\n    },\\n    {\\n      \\\"name\\\": \\\"color\\\",\\n      \\\"type\\\": \\\"ordinal\\\",\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.weather_short_description\\\"},\\n      \\\"range\\\": \\\"category\\\"\\n    },\\n\\n    {\\n      \\\"name\\\": \\\"_source.elevation_feetX\\\", \\\"zero\\\": false, \\\"nice\\\": true,\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.elevation_feet\\\"},\\n      \\\"range\\\": [0, {\\\"signal\\\": \\\"chartSize\\\"}]\\n    },\\n    {\\n      \\\"name\\\": \\\"_source.weather_temperature.tempX\\\", \\\"zero\\\": false, \\\"nice\\\": true,\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.weather_temperature.temp\\\"},\\n      \\\"range\\\": [0, {\\\"signal\\\": \\\"chartSize\\\"}]\\n    },\\n    {\\n      \\\"name\\\": \\\"_source.weather_wind.speedX\\\", \\\"zero\\\": false, \\\"nice\\\": true,\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.weather_wind.speed\\\"},\\n      \\\"range\\\": [0, {\\\"signal\\\": \\\"chartSize\\\"}]\\n    },\\n    {\\n      \\\"name\\\": \\\"_source.weather_humidityX\\\", \\\"zero\\\": false, \\\"nice\\\": true,\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.weather_humidity\\\"},\\n      \\\"range\\\": [0, {\\\"signal\\\": \\\"chartSize\\\"}]\\n    },\\n\\n    {\\n      \\\"name\\\": \\\"_source.elevation_feetY\\\", \\\"zero\\\": false, \\\"nice\\\": true,\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.elevation_feet\\\"},\\n      \\\"range\\\": [{\\\"signal\\\": \\\"chartSize\\\"}, 0]\\n    },\\n    {\\n      \\\"name\\\": \\\"_source.weather_temperature.tempY\\\", \\\"zero\\\": false, \\\"nice\\\": true,\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.weather_temperature.temp\\\"},\\n      \\\"range\\\": [{\\\"signal\\\": \\\"chartSize\\\"}, 0]\\n    },\\n    {\\n      \\\"name\\\": \\\"_source.weather_wind.speedY\\\", \\\"zero\\\": false, \\\"nice\\\": true,\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.weather_wind.speed\\\"},\\n      \\\"range\\\": [{\\\"signal\\\": \\\"chartSize\\\"}, 0]\\n    },\\n    {\\n      \\\"name\\\": \\\"_source.weather_humidityY\\\", \\\"zero\\\": false, \\\"nice\\\": true,\\n      \\\"domain\\\": {\\\"data\\\": \\\"splom\\\", \\\"field\\\": \\\"_source.weather_humidity\\\"},\\n      \\\"range\\\": [{\\\"signal\\\": \\\"chartSize\\\"}, 0]\\n    }\\n  ],\\n\\n  \\\"axes\\\": [\\n    {\\n      \\\"orient\\\": \\\"left\\\", \\\"scale\\\": \\\"_source.elevation_feetY\\\", \\\"minExtent\\\": 25,\\n      \\\"title\\\": \\\"Elevation\\\", \\\"tickCount\\\": 5, \\\"domain\\\": false,\\n      \\\"position\\\": {\\\"signal\\\": \\\"3 * chartStep\\\"}\\n    },\\n    {\\n      \\\"orient\\\": \\\"left\\\", \\\"scale\\\": \\\"_source.weather_temperature.tempY\\\", \\\"minExtent\\\": 25,\\n      \\\"title\\\": \\\"Temperature\\\", \\\"tickCount\\\": 5, \\\"domain\\\": false,\\n      \\\"position\\\": {\\\"signal\\\": \\\"2 * chartStep\\\"}\\n    },\\n    {\\n      \\\"orient\\\": \\\"left\\\", \\\"scale\\\": \\\"_source.weather_wind.speedY\\\", \\\"minExtent\\\": 25,\\n      \\\"title\\\": \\\"Wind Speed\\\", \\\"tickCount\\\": 5, \\\"domain\\\": false,\\n      \\\"position\\\": {\\\"signal\\\": \\\"1 * chartStep\\\"}\\n    },\\n    {\\n      \\\"orient\\\": \\\"left\\\", \\\"scale\\\": \\\"_source.weather_humidityY\\\", \\\"minExtent\\\": 25,\\n      \\\"title\\\": \\\"Humidity\\\", \\\"tickCount\\\": 5, \\\"domain\\\": false\\n    },\\n    {\\n      \\\"orient\\\": \\\"bottom\\\", \\\"scale\\\": \\\"_source.elevation_feetX\\\",\\n      \\\"title\\\": \\\"Elevation\\\", \\\"tickCount\\\": 5, \\\"domain\\\": false,\\n      \\\"offset\\\": {\\\"signal\\\": \\\"-chartPad\\\"}\\n    },\\n    {\\n      \\\"orient\\\": \\\"bottom\\\", \\\"scale\\\": \\\"_source.weather_temperature.tempX\\\",\\n      \\\"title\\\": \\\"Temperature\\\", \\\"tickCount\\\": 5, \\\"domain\\\": false,\\n      \\\"offset\\\": {\\\"signal\\\": \\\"-chartPad\\\"}, \\\"position\\\": {\\\"signal\\\": \\\"1 * chartStep\\\"}\\n    },\\n    {\\n      \\\"orient\\\": \\\"bottom\\\", \\\"scale\\\": \\\"_source.weather_wind.speedX\\\",\\n      \\\"title\\\": \\\"Wind Speed\\\", \\\"tickCount\\\": 5, \\\"domain\\\": false,\\n      \\\"offset\\\": {\\\"signal\\\": \\\"-chartPad\\\"}, \\\"position\\\": {\\\"signal\\\": \\\"2 * chartStep\\\"}\\n    },\\n    {\\n      \\\"orient\\\": \\\"bottom\\\", \\\"scale\\\": \\\"_source.weather_humidityX\\\",\\n      \\\"title\\\": \\\"Humidity\\\", \\\"tickCount\\\": 5, \\\"domain\\\": false,\\n      \\\"offset\\\": {\\\"signal\\\": \\\"-chartPad\\\"}, \\\"position\\\": {\\\"signal\\\": \\\"3 * chartStep\\\"}\\n    }\\n  ],\\n\\n  \\\"legends\\\": [\\n    {\\n      \\\"fill\\\": \\\"color\\\",\\n      \\\"title\\\": \\\"Weather Description\\\",\\n      \\\"offset\\\": 0,\\n      \\\"encode\\\": {\\n        \\\"symbols\\\": {\\n          \\\"update\\\": {\\n            \\\"fillOpacity\\\": {\\\"value\\\": 0.5},\\n            \\\"stroke\\\": {\\\"value\\\": \\\"transparent\\\"}\\n          }\\n        }\\n      }\\n    }\\n  ],\\n\\n  \\\"marks\\\": [\\n    {\\n      \\\"type\\\": \\\"rect\\\",\\n      \\\"encode\\\": {\\n        \\\"enter\\\": {\\n          \\\"fill\\\": {\\\"value\\\": \\\"#eee\\\"}\\n        },\\n        \\\"update\\\": {\\n          \\\"opacity\\\": {\\\"signal\\\": \\\"cell ? 1 : 0\\\"},\\n          \\\"x\\\": {\\\"signal\\\": \\\"cell ? cell.x + brushX[0] : 0\\\"},\\n          \\\"x2\\\": {\\\"signal\\\": \\\"cell ? cell.x + brushX[1] : 0\\\"},\\n          \\\"y\\\": {\\\"signal\\\": \\\"cell ? cell.y + brushY[0] : 0\\\"},\\n          \\\"y2\\\": {\\\"signal\\\": \\\"cell ? cell.y + brushY[1] : 0\\\"}\\n        }\\n      }\\n    },\\n    {\\n      \\\"name\\\": \\\"cell\\\",\\n      \\\"type\\\": \\\"group\\\",\\n      \\\"from\\\": {\\\"data\\\": \\\"cross\\\"},\\n\\n      \\\"encode\\\": {\\n        \\\"enter\\\": {\\n          \\\"x\\\": {\\\"scale\\\": \\\"groupx\\\", \\\"field\\\": \\\"x.data\\\"},\\n          \\\"y\\\": {\\\"scale\\\": \\\"groupy\\\", \\\"field\\\": \\\"y.data\\\"},\\n          \\\"width\\\": {\\\"signal\\\": \\\"chartSize\\\"},\\n          \\\"height\\\": {\\\"signal\\\": \\\"chartSize\\\"},\\n          \\\"fill\\\": {\\\"value\\\": \\\"transparent\\\"},\\n          \\\"stroke\\\": {\\\"value\\\": \\\"#ddd\\\"}\\n        }\\n      },\\n\\n      \\\"marks\\\": [\\n        {\\n          \\\"type\\\": \\\"symbol\\\",\\n          \\\"from\\\": {\\\"data\\\": \\\"splom\\\"},\\n          \\\"interactive\\\": false,\\n          \\\"encode\\\": {\\n            \\\"enter\\\": {\\n              \\\"x\\\": {\\n                \\\"scale\\\": {\\\"parent\\\": \\\"xscale\\\"},\\n                \\\"field\\\": {\\\"datum\\\": {\\\"parent\\\": \\\"x.data\\\"}}\\n              },\\n              \\\"y\\\": {\\n                \\\"scale\\\": {\\\"parent\\\": \\\"yscale\\\"},\\n                \\\"field\\\": {\\\"datum\\\": {\\\"parent\\\": \\\"y.data\\\"}}\\n              },\\n              \\\"fillOpacity\\\": {\\\"value\\\": 0.5},\\n              \\\"size\\\": {\\\"value\\\": 36}\\n            },\\n            \\\"update\\\": {\\n              \\\"fill\\\": [\\n                {\\n                  \\\"test\\\": \\\"!cell || inrange(datum[cell.datum.x.data], rangeX) && inrange(datum[cell.datum.y.data], rangeY)\\\",\\n                  \\\"scale\\\": \\\"color\\\", \\\"field\\\": \\\"_source.weather_short_description\\\"\\n                },\\n                {\\\"value\\\": \\\"#ddd\\\"}\\n              ]\\n            }\\n          }\\n        }\\n      ]\\n    },\\n    {\\n      \\\"type\\\": \\\"rect\\\",\\n      \\\"name\\\": \\\"brush\\\",\\n      \\\"encode\\\": {\\n        \\\"enter\\\": {\\n          \\\"fill\\\": {\\\"value\\\": \\\"transparent\\\"}\\n        },\\n        \\\"update\\\": {\\n          \\\"x\\\": {\\\"signal\\\": \\\"cell ? cell.x + brushX[0] : 0\\\"},\\n          \\\"x2\\\": {\\\"signal\\\": \\\"cell ? cell.x + brushX[1] : 0\\\"},\\n          \\\"y\\\": {\\\"signal\\\": \\\"cell ? cell.y + brushY[0] : 0\\\"},\\n          \\\"y2\\\": {\\\"signal\\\": \\\"cell ? cell.y + brushY[1] : 0\\\"}\\n        }\\n      }\\n    }\\n  ]\\n}\\n\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "0240a790-89f3-11e8-b26e-65d1aca8670d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Weather Distribution",
+      "visState": "{\"title\":\"[Mike] Weather Distribution\",\"type\":\"vega\",\"params\":{\"spec\":\"{\\n  $schema: https://vega.github.io/schema/vega-lite/v2.json\\n  data: {\\n    url: {\\n      %context%: true\\n      %timefield%: dateTime\\n      index: mike_location*\\n      body: {\\n        size: 10000\\n        _source: [\\\"dateTime\\\", \\\"weather_short_description\\\", \\\"weather_temperature.temp\\\"]\\n      }\\n    }\\n    format: {property: \\\"hits.hits\\\"}\\n  }\\n  transform: [\\n    {calculate: \\\"toDate(datum._source['dateTime'])\\\", as: \\\"time\\\"}\\n  ]\\n  mark: circle\\n  encoding: {\\n    x: {field: \\\"time\\\", type: \\\"temporal\\\", axis: {title: null}}\\n    y: {field: \\\"_source.weather_short_description\\\", type: \\\"nominal\\\", axis: {title: null}}\\n    size: {field: \\\"_source.weather_temperature.temp\\\", type: \\\"quantitative\\\", legend: null}\\n    color: {field: \\\"_source.weather_short_description\\\", type: \\\"nominal\\\", legend: null}\\n  }\\n}\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "4977db90-9008-11e8-b26e-65d1aca8670d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] 24hr Mikes Location",
+      "visState": "{\"title\":\"[Mike] 24hr Mikes Location\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"background_color_rules\":[{\"id\":\"7482f0d0-313b-11e8-86e5-19d9d4740a54\"}],\"drop_last_bucket\":0,\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"mike_location*\",\"interval\":\">=7d\",\"markdown\":\"Last Known Location: {{ latitude.last.formatted }},{{ longitude.last.formatted }}\\n\\n![Mike's Location](https://maps.googleapis.com/maps/api/staticmap?center={{ latitude.last.formatted }},{{ longitude.last.formatted }}&zoom=19&size=600x800&maptype=satellite&key=AIzaSyA7GJYJ1IZt-aJ0NLFg88rBQntwChkV48M)\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"000.00000\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"longitude\",\"line_width\":1,\"metrics\":[{\"agg_with\":\"avg\",\"field\":\"longitude\",\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"order\":\"desc\",\"order_by\":\"dateTime\",\"size\":1,\"type\":\"top_hit\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"none\"},{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"000.00000\",\"id\":\"4b4c9c50-2ef4-11e8-97e6-f5b0f1cc3010\",\"label\":\"latitude\",\"line_width\":1,\"metrics\":[{\"agg_with\":\"avg\",\"field\":\"latitude\",\"id\":\"4b4c9c51-2ef4-11e8-97e6-f5b0f1cc3010\",\"order\":\"desc\",\"order_by\":\"dateTime\",\"size\":1,\"type\":\"top_hit\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"none\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"dateTime\",\"type\":\"markdown\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "80936e40-89e2-11e8-b26e-65d1aca8670d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Controls v2.0",
+      "visState": "{\"title\":\"[Mike] Controls v2.0\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1521766155605\",\"fieldName\":\"address_state\",\"label\":\"State\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"},{\"id\":\"1531846698634\",\"fieldName\":\"address_county\",\"parent\":\"1521766155605\",\"label\":\"County\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_1_index_pattern\"},{\"id\":\"1531846723214\",\"fieldName\":\"address_city\",\"parent\":\"1521766155605\",\"label\":\"City\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_2_index_pattern\"},{\"id\":\"1531846810106\",\"fieldName\":\"address_postcode\",\"parent\":\"1521766155605\",\"label\":\"Zip Code\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_3_index_pattern\"},{\"id\":\"1532438219028\",\"fieldName\":\"address_road\",\"parent\":\"1521766155605\",\"label\":\"Road\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_4_index_pattern\"},{\"id\":\"1525180491670\",\"fieldName\":\"weather_temperature.temp\",\"label\":\"Temperature\",\"type\":\"range\",\"options\":{\"decimalPlaces\":0,\"step\":1},\"indexPatternRefName\":\"control_5_index_pattern\"}],\"updateFiltersOnChange\":false,\"useTimeFilter\":true,\"pinFilters\":false},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "control_0_index_pattern",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "control_1_index_pattern",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "control_2_index_pattern",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "control_3_index_pattern",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "control_4_index_pattern",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      },
+      {
+        "name": "control_5_index_pattern",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "11f2f570-38c8-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Elevation vs. Distance + Annotations",
+      "visState": "{\"title\":\"[Mike] Elevation vs. Distance + Annotations\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"sum\",\"field\":\"distance_miles\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"Sum of Distance\",\"value_template\":\"{{value}} miles\"},{\"id\":\"e7234ad0-38c6-11e8-8da3-f9501c65e42b\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"e7234ad1-38c6-11e8-8da3-f9501c65e42b\",\"type\":\"max\",\"field\":\"elevation_feet\"}],\"seperate_axis\":1,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"1\",\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Max Elevation\",\"value_template\":\"{{value}} ft\",\"separate_axis\":1}],\"time_field\":\"dateTime\",\"index_pattern\":\"mike_location*\",\"interval\":\">=1d\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":0,\"legend_position\":\"bottom\",\"annotations\":[{\"fields\":\"messageType, messageContent\",\"template\":\"{{messageType}}: {{messageContent}}\",\"index_pattern\":\"mike_location*\",\"query_string\":\"messageType:OK\",\"id\":\"33d75ec0-38c7-11e8-8da3-f9501c65e42b\",\"color\":\"rgba(25,77,51,1)\",\"time_field\":\"dateTime\",\"icon\":\"fa-map-marker\",\"ignore_global_filters\":0,\"ignore_panel_filters\":0},{\"fields\":\"messageType, messageContent\",\"template\":\"{{messageType}}: {{messageContent}}\",\"index_pattern\":\"mike_location*\",\"query_string\":\"messageType:HELP\",\"id\":\"a62e8970-4d45-11e8-8bb4-61b651815b35\",\"color\":\"#F00\",\"time_field\":\"dateTime\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":0}],\"drop_last_bucket\":0,\"axis_scale\":\"normal\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "90fb1cb0-8938-11e8-9496-fb14140676e4",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] 24hr Elevation vs. Distance + Annotations",
+      "visState": "{\"title\":\"[Mike] 24hr Elevation vs. Distance + Annotations\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"sum\",\"field\":\"distance_miles\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"label\":\"Sum of Distance\",\"value_template\":\"{{value}} miles\"},{\"id\":\"e7234ad0-38c6-11e8-8da3-f9501c65e42b\",\"color\":\"rgba(0,156,224,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"e7234ad1-38c6-11e8-8da3-f9501c65e42b\",\"type\":\"max\",\"field\":\"elevation_feet\"}],\"seperate_axis\":1,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"1\",\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Max Elevation\",\"value_template\":\"{{value}} ft\"}],\"time_field\":\"dateTime\",\"index_pattern\":\"mike_location*\",\"interval\":\">=1h\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":0,\"show_grid\":0,\"legend_position\":\"bottom\",\"annotations\":[{\"fields\":\"messageType, messageContent\",\"template\":\"{{messageType}}: {{messageContent}}\",\"index_pattern\":\"mike_location*\",\"query_string\":\"messageType:OK\",\"id\":\"33d75ec0-38c7-11e8-8da3-f9501c65e42b\",\"color\":\"rgba(25,77,51,1)\",\"time_field\":\"dateTime\",\"icon\":\"fa-map-marker\",\"ignore_global_filters\":0,\"ignore_panel_filters\":0},{\"fields\":\"messageType, messageContent\",\"template\":\"{{messageType}}: {{messageContent}}\",\"index_pattern\":\"mike_location*\",\"query_string\":\"messageType:HELP\",\"id\":\"a62e8970-4d45-11e8-8bb4-61b651815b35\",\"color\":\"#F00\",\"time_field\":\"dateTime\",\"icon\":\"fa-exclamation-triangle\",\"ignore_global_filters\":0,\"ignore_panel_filters\":0}],\"drop_last_bucket\":0},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "03049610-893e-11e8-9496-fb14140676e4",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Battery State v2.0",
+      "visState": "{\"title\":\"[Mike] Battery State v2.0\",\"type\":\"vega\",\"params\":{\"spec\":\"{\\n  # Schema indicates that this is Vega code\\n  $schema: https://vega.github.io/schema/vega/v3.0.json\\n  # All our data sources are listed in this section\\n  data: [\\n    {\\n      name: values\\n      # when url is an object, it is treated as an Elasticsearch query\\n      url: {\\n        index: mike_location*\\n        body: {\\n          aggs: {\\n            battery_state: {\\n              terms: {\\n                field: batteryState\\n                size: 5\\n              }\\n            }\\n          }\\n          query: {\\n            range: {\\n              @timestamp: {gte: \\\"now-24h\\\", lte: \\\"now\\\"}\\n            }\\n          }\\n          size: 0\\n        }\\n      }\\n  ]\\n  marks: [\\n    {\\n      type: image\\n      from: {data: \\\"values\\\"}\\n      encode: {\\n        enter:{\\n          url: { \\n            value: \\\"https://image.flaticon.com/icons/svg/179/179366.svg\\\"\\n            }\\n        }\\n      }\\n    }\\n  ]\\n}\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "3df65860-2ef5-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Mikes Location",
+      "visState": "{\"title\":\"[Mike] Mikes Location\",\"type\":\"metrics\",\"params\":{\"axis_formatter\":\"number\",\"axis_position\":\"left\",\"background_color_rules\":[{\"id\":\"7482f0d0-313b-11e8-86e5-19d9d4740a54\"}],\"drop_last_bucket\":0,\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"mike_location*\",\"interval\":\">=7d\",\"markdown\":\"Last Known Location: {{ latitude.last.formatted }},{{ longitude.last.formatted }}\\n\\n![Mike's Location](https://maps.googleapis.com/maps/api/staticmap?center={{ latitude.last.formatted }},{{ longitude.last.formatted }}&zoom=19&size=600x800&maptype=satellite&key=AIzaSyA7GJYJ1IZt-aJ0NLFg88rBQntwChkV48M)\",\"series\":[{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"000.00000\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"longitude\",\"line_width\":1,\"metrics\":[{\"agg_with\":\"avg\",\"field\":\"longitude\",\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"order\":\"desc\",\"order_by\":\"dateTime\",\"size\":1,\"type\":\"top_hit\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"none\"},{\"axis_position\":\"right\",\"chart_type\":\"line\",\"color\":\"#68BC00\",\"fill\":0.5,\"formatter\":\"000.00000\",\"id\":\"4b4c9c50-2ef4-11e8-97e6-f5b0f1cc3010\",\"label\":\"latitude\",\"line_width\":1,\"metrics\":[{\"agg_with\":\"avg\",\"field\":\"latitude\",\"id\":\"4b4c9c51-2ef4-11e8-97e6-f5b0f1cc3010\",\"order\":\"desc\",\"order_by\":\"dateTime\",\"size\":1,\"type\":\"top_hit\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"none\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"dateTime\",\"type\":\"markdown\"},\"aggs\":[]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": []
+  },
+  {
+    "_id": "58c93030-2e33-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Temperature Over Time",
+      "visState": "{\"title\":\"[Mike] Temperature Over Time\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Avg. Temp\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Avg. Temp\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"3\",\"label\":\"Avg. Max Temp\"},\"valueAxis\":\"ValueAxis-1\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"4\",\"label\":\"Avg. Min Temp\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp\",\"customLabel\":\"Avg. Temp\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dateTime\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp_max\",\"customLabel\":\"Avg. Max Temp\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp_min\",\"customLabel\":\"Avg. Min Temp\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "95ea3b30-2d66-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Distance from Starting Point",
+      "visState": "{\"title\":\"[Mike] Distance from Starting Point\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":27}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"top_hits\",\"schema\":\"metric\",\"params\":{\"field\":\"origin_distance_miles\",\"aggregate\":\"concat\",\"size\":1,\"sortField\":\"dateTime\",\"sortOrder\":\"desc\",\"customLabel\":\"Miles from Starting Point\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "57a0a7c0-313e-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Average Temp Postcode",
+      "visState": "{\"title\":\"[Mike] Average Temp Postcode\",\"type\":\"region_map\",\"params\":{\"legendPosition\":\"bottomright\",\"addTooltip\":true,\"colorSchema\":\"Yellow to Red\",\"selectedLayer\":{\"meta\":{\"feature_collection_path\":\"data\"},\"attribution\":\"<p><a href=\\\"http://www.naturalearthdata.com/about/terms-of-use\\\">Made with NaturalEarth</a> | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"name\":\"USA zip codes\",\"weight\":0,\"format\":\"topojson\",\"url\":\"https://vector.maps.elastic.co/blob/5700305828184064?elastic_tile_service_tos=agree&my_app_version=6.2.2&license=c16ab9db-b270-4466-9535-a15cb66a4df5\",\"fields\":[{\"name\":\"zip\",\"description\":\"5-digit zip code\"}],\"created_at\":\"2018-01-26T17:16:00.275510\",\"tags\":[],\"id\":5700305828184064,\"layerId\":\"elastic_maps_service.USA zip codes\"},\"selectedJoinField\":{\"name\":\"zip\",\"description\":\"5-digit zip code\"},\"isDisplayWarning\":true,\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"baseLayersAreLoaded\":{},\"tmsLayers\":[{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.2&license=c16ab9db-b270-4466-9535-a15cb66a4df5\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}],\"selectedTmsLayer\":{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.2&license=c16ab9db-b270-4466-9535-a15cb66a4df5\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}},\"mapZoom\":2,\"mapCenter\":[0,0],\"outlineWeight\":1,\"showAllShapes\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp\",\"customLabel\":\"Avg Temp\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"address_postcode\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Post Code\"}}]}",
+      "uiStateJSON": "{\"mapZoom\":11,\"mapCenter\":[37.87160128507345,-122.11544036865236]}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "4e87b440-35b1-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Total Miles",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"Total Miles Traveled\",\"field\":\"distance_miles\"},\"schema\":\"metric\",\"type\":\"sum\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":41,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"title\":\"[Mike] Total Miles\",\"type\":\"metric\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "d3918ba0-386a-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Temperature by Zip Code",
+      "visState": "{\"title\":\"[Mike] Temperature by Zip Code\",\"type\":\"region_map\",\"params\":{\"legendPosition\":\"bottomright\",\"addTooltip\":true,\"colorSchema\":\"Yellow to Red\",\"selectedLayer\":{\"meta\":{\"feature_collection_path\":\"data\"},\"attribution\":\"<p><a href=\\\"http://www.naturalearthdata.com/about/terms-of-use\\\">Made with NaturalEarth</a> | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"name\":\"USA zip codes\",\"weight\":0,\"format\":\"topojson\",\"url\":\"https://vector.maps.elastic.co/blob/5700305828184064?elastic_tile_service_tos=agree&my_app_version=6.2.2&license=febe4fcf-1667-43cc-a418-f0f7c6fe6847\",\"fields\":[{\"name\":\"zip\",\"description\":\"5-digit zip code\"}],\"created_at\":\"2018-01-26T17:16:00.275510\",\"tags\":[],\"id\":5700305828184064,\"layerId\":\"elastic_maps_service.USA zip codes\"},\"selectedJoinField\":{\"name\":\"zip\",\"description\":\"5-digit zip code\"},\"isDisplayWarning\":false,\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"baseLayersAreLoaded\":{},\"tmsLayers\":[{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.2&license=febe4fcf-1667-43cc-a418-f0f7c6fe6847\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}],\"selectedTmsLayer\":{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.2&license=febe4fcf-1667-43cc-a418-f0f7c6fe6847\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}},\"mapZoom\":2,\"mapCenter\":[0,0],\"outlineWeight\":1,\"showAllShapes\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"address_postcode\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":200,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{\"mapZoom\":8,\"mapCenter\":[33.201924189778936,-116.79290771484376]}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "17075770-38c5-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Humidity vs. Distance",
+      "visState": "{\"title\":\"[Mike] Humidity vs. Distance\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Avg. Humidity\"}},{\"id\":\"ValueAxis-2\",\"name\":\"RightAxis-1\",\"type\":\"value\",\"position\":\"right\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of Distance (miles)\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"area\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"data\":{\"id\":\"5\",\"label\":\"Sum of Distance (miles)\"},\"valueAxis\":\"ValueAxis-2\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"4\",\"label\":\"Avg. Humidity\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dateTime\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"5\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Sum of Distance (miles)\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_humidity\",\"customLabel\":\"Avg. Humidity\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Sum of Distance (miles)\":\"#82B5D8\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "0b2760e0-2e33-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Temperature",
+      "visState": "{\"title\":\"[Mike] Temperature\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":26}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"top_hits\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp\",\"aggregate\":\"average\",\"size\":1,\"sortField\":\"dateTime\",\"sortOrder\":\"desc\",\"customLabel\":\"Last Temp\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp_max\",\"customLabel\":\"Max Temp\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"min\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp_min\",\"customLabel\":\"Min Temp\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "1e0ab0d0-38c5-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Temperature vs. Distance",
+      "visState": "{\"title\":\"[Mike] Temperature vs. Distance\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Avg. Temp\"}},{\"id\":\"ValueAxis-2\",\"name\":\"RightAxis-1\",\"type\":\"value\",\"position\":\"right\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of Distance (miles)\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"area\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"data\":{\"id\":\"5\",\"label\":\"Sum of Distance (miles)\"},\"valueAxis\":\"ValueAxis-2\"},{\"show\":\"true\",\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Avg. Temp\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dateTime\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"5\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Sum of Distance (miles)\"}},{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp\",\"customLabel\":\"Avg. Temp\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Sum of Distance (miles)\":\"#82B5D8\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "3558f6c0-2e34-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Weather Description",
+      "visState": "{\"title\":\"[Mike] Weather Description\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":25,\"maxFontSize\":75,\"showLabel\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"weather_short_description\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":25,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "6a378920-4d5a-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Top Rest Steps",
+      "visState": "{\"title\":\"[Mike] Top Rest Steps\",\"type\":\"table\",\"params\":{\"perPage\":5,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"bucket\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":false,\"precision\":2,\"customLabel\":\"Location\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"weather_place\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":1000,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Place\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"address_postcode\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":1000,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Zip Code\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":3,\"direction\":\"desc\"}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "50f4d1d0-8f44-11e8-b26e-65d1aca8670d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Last Check In",
+      "visState": "{\"title\":\"[Mike] Last Check In\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"top_hits\",\"schema\":\"metric\",\"params\":{\"field\":\"dateTime\",\"aggregate\":\"concat\",\"size\":1,\"sortField\":\"dateTime\",\"sortOrder\":\"desc\",\"customLabel\":\"Date\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"latitude\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":1,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Latitude\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"longitude\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":1,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Longitude\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"address_road\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":1,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"Road\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"address_county\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":1,\"order\":\"desc\",\"orderBy\":\"_term\",\"customLabel\":\"County\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "734b8cd0-313c-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Elevation vs. Hour of Day",
+      "visState": "{\"title\":\"[Mike] Elevation vs. Hour of Day\",\"type\":\"heatmap\",\"params\":{\"type\":\"heatmap\",\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":10,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Total Miles\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"hour_of_day\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":24,\"order\":\"asc\",\"orderBy\":\"_term\",\"customLabel\":\"Hour of Day\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"range\",\"schema\":\"group\",\"params\":{\"field\":\"elevation_feet\",\"ranges\":[{\"from\":0,\"to\":3000},{\"from\":3000,\"to\":4000},{\"from\":4000,\"to\":5000},{\"from\":5000,\"to\":6000},{\"from\":6000,\"to\":7000},{\"from\":7000,\"to\":8000},{\"from\":8000,\"to\":9000},{\"from\":9000,\"to\":10000},{\"from\":10000,\"to\":null}],\"customLabel\":\"Elevation Range (feet)\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 3\":\"rgb(247,252,245)\",\"3 - 5\":\"rgb(233,247,228)\",\"5 - 8\":\"rgb(211,238,205)\",\"8 - 10\":\"rgb(184,227,177)\",\"10 - 12\":\"rgb(152,213,148)\",\"12 - 15\":\"rgb(116,196,118)\",\"15 - 17\":\"rgb(75,176,98)\",\"17 - 20\":\"rgb(47,152,79)\",\"20 - 22\":\"rgb(21,127,59)\",\"22 - 24\":\"rgb(0,100,40)\"},\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "26c16e80-9004-11e8-b26e-65d1aca8670d",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] 24hr Elevation vs. Hour of Day",
+      "visState": "{\"title\":\"[Mike] 24hr Elevation vs. Hour of Day\",\"type\":\"heatmap\",\"params\":{\"type\":\"heatmap\",\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":10,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":0,\"color\":\"#555\",\"overwriteColor\":false}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Total Miles\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"hour_of_day\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":24,\"order\":\"asc\",\"orderBy\":\"_term\",\"customLabel\":\"Hour of Day\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"range\",\"schema\":\"group\",\"params\":{\"field\":\"elevation_feet\",\"ranges\":[{\"from\":0,\"to\":3000},{\"from\":3000,\"to\":4000},{\"from\":4000,\"to\":5000},{\"from\":5000,\"to\":6000},{\"from\":6000,\"to\":7000},{\"from\":7000,\"to\":8000},{\"from\":8000,\"to\":9000},{\"from\":9000,\"to\":10000},{\"from\":10000,\"to\":null}],\"customLabel\":\"Elevation Range (feet)\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 1\":\"rgb(247,252,245)\",\"1 - 2\":\"rgb(233,247,228)\",\"2 - 3\":\"rgb(211,238,205)\",\"3 - 4\":\"rgb(184,227,177)\",\"4 - 5\":\"rgb(152,213,148)\",\"5 - 6\":\"rgb(116,196,118)\",\"6 - 7\":\"rgb(75,176,98)\",\"7 - 8\":\"rgb(47,152,79)\",\"8 - 9\":\"rgb(21,127,59)\",\"9 - 9\":\"rgb(0,100,40)\"},\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "06d627b0-2adc-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Location",
+      "visState": "{\"title\":\"[Mike] Location\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"baseLayersAreLoaded\":{},\"tmsLayers\":[{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.2&license=c16ab9db-b270-4466-9535-a15cb66a4df5\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}],\"selectedTmsLayer\":{\"id\":\"road_map\",\"url\":\"https://tiles.maps.elastic.co/v2/default/{z}/{x}/{y}.png?elastic_tile_service_tos=agree&my_app_name=kibana&my_app_version=6.2.2&license=c16ab9db-b270-4466-9535-a15cb66a4df5\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a> contributors | <a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\",\"subdomains\":[]}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"precision\":4}}]}",
+      "uiStateJSON": "{\"mapZoom\":8,\"mapCenter\":[33.90233640448071,-116.67205810546876]}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "213988c0-8939-11e8-9496-fb14140676e4",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] 24hr Temperature vs. Distance",
+      "visState": "{\"title\":\"[Mike] 24hr Temperature vs. Distance\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Avg. Temp\"}},{\"id\":\"ValueAxis-2\",\"name\":\"RightAxis-1\",\"type\":\"value\",\"position\":\"right\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of Distance (miles)\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"area\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"data\":{\"id\":\"5\",\"label\":\"Sum of Distance (miles)\"},\"valueAxis\":\"ValueAxis-2\"},{\"show\":\"true\",\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Avg. Temp\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dateTime\",\"interval\":\"h\",\"customInterval\":\"3h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"5\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Sum of Distance (miles)\"}},{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_temperature.temp\",\"customLabel\":\"Avg. Temp\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Sum of Distance (miles)\":\"#82B5D8\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "de151e60-8938-11e8-9496-fb14140676e4",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] 24hr Humidity vs. Distance",
+      "visState": "{\"title\":\"[Mike] 24hr Humidity vs. Distance\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Avg. Humidity\"}},{\"id\":\"ValueAxis-2\",\"name\":\"RightAxis-1\",\"type\":\"value\",\"position\":\"right\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of Distance (miles)\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"area\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"data\":{\"id\":\"5\",\"label\":\"Sum of Distance (miles)\"},\"valueAxis\":\"ValueAxis-2\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"4\",\"label\":\"Avg. Humidity\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dateTime\",\"interval\":\"h\",\"customInterval\":\"3h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"5\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Sum of Distance (miles)\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_humidity\",\"customLabel\":\"Avg. Humidity\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Sum of Distance (miles)\":\"#82B5D8\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "2d106330-8939-11e8-9496-fb14140676e4",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] 24hr Wind vs. Distance",
+      "visState": "{\"title\":\"[Mike] 24hr Wind vs. Distance\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Avg. Wind Mph\"}},{\"id\":\"ValueAxis-2\",\"name\":\"RightAxis-1\",\"type\":\"value\",\"position\":\"right\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of Distance (miles)\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"area\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"data\":{\"id\":\"5\",\"label\":\"Sum of Distance (miles)\"},\"valueAxis\":\"ValueAxis-2\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"3\",\"label\":\"Avg. Wind Mph\"},\"valueAxis\":\"ValueAxis-1\",\"interpolate\":\"linear\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dateTime\",\"interval\":\"h\",\"customInterval\":\"3h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"5\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Sum of Distance (miles)\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_wind.speed\",\"customLabel\":\"Avg. Wind Mph\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Sum of Distance (miles)\":\"#82B5D8\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "807e73f0-2add-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Battery State",
+      "visState": "{\"title\":\"[Mike] Battery State\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":18,\"maxFontSize\":62,\"showLabel\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"batteryState\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "663cc460-2d67-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Elevation vs. Distance",
+      "visState": "{\"title\":\"[Mike] Elevation vs. Distance\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Elevation (meters)\"}},{\"id\":\"ValueAxis-2\",\"name\":\"RightAxis-1\",\"type\":\"value\",\"position\":\"right\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Distance (miles)\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Elevation (meters)\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"lineWidth\":3,\"data\":{\"id\":\"3\",\"label\":\"Distance (miles)\"},\"valueAxis\":\"ValueAxis-2\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"elevation_meters\",\"customLabel\":\"Elevation (meters)\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dateTime\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Distance (miles)\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "c6b79550-2e33-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Goal %",
+      "visState": "{\"title\":\"[Mike] Goal %\",\"type\":\"goal\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"isDisplayWarning\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":true,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":2650}],\"invertColors\":false,\"labels\":{\"show\":false,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"meter\",\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Percent Completion\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "23687080-38c5-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Wind vs. Distance",
+      "visState": "{\"title\":\"[Mike] Wind vs. Distance\",\"type\":\"line\",\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Avg. Wind Mph\"}},{\"id\":\"ValueAxis-2\",\"name\":\"RightAxis-1\",\"type\":\"value\",\"position\":\"right\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of Distance (miles)\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"area\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"data\":{\"id\":\"5\",\"label\":\"Sum of Distance (miles)\"},\"valueAxis\":\"ValueAxis-2\"},{\"show\":true,\"mode\":\"normal\",\"type\":\"line\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"3\",\"label\":\"Avg. Wind Mph\"},\"valueAxis\":\"ValueAxis-1\",\"interpolate\":\"linear\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"dateTime\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"5\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"distance_miles\",\"customLabel\":\"Sum of Distance (miles)\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"weather_wind.speed\",\"customLabel\":\"Avg. Wind Mph\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"Avg. Distance\":\"#BADFF4\",\"Sum of Distance (miles)\":\"#82B5D8\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "376f4050-3f0e-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Max Elevation",
+      "visState": "{\"title\":\"[Mike] Max Elevation\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":35}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"max\",\"schema\":\"metric\",\"params\":{\"field\":\"elevation_feet\",\"customLabel\":\"Max Elevation (Feet)\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  },
+  {
+    "_id": "afda9720-3869-11e8-949f-c53ef853fc65",
+    "_type": "visualization",
+    "_source": {
+      "title": "[Mike] Wind Direction",
+      "visState": "{\"title\":\"[Mike] Wind Direction\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":18,\"maxFontSize\":72,\"showLabel\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"weather_wind_direction\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "7.0.0"
+    },
+    "_references": [
+      {
+        "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+        "type": "index-pattern",
+        "id": "de0e6590-2adb-11e8-949f-c53ef853fc65"
+      }
+    ]
+  }
+]

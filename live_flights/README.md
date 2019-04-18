@@ -18,7 +18,7 @@ curl -X POST 'http://localhost:5601/api/saved_objects/map/' -H 'Content-Type: ap
 If you are not adding the map to the default space, you'll need to add the space name as part of the POST
 
 ```curl
-curl -X POST 'http://localhost:5601/s/SPACENAME/api/saved_objects/map/' -H 'Content-Type: application/json' -H "kbn-xsrf: true" -d "@bflight_demo.json"
+curl -X POST 'http://localhost:5601/s/SPACENAME/api/saved_objects/map/' -H 'Content-Type: application/json' -H "kbn-xsrf: true" -d "@flight_demo.json"
 ```
 
 ![screenshot](https://github.com/alexfrancoeur/elastic_maps_examples/blob/master/images/live_flights.png)
