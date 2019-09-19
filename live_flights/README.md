@@ -8,6 +8,7 @@ Load up the python script `routes.py` and update line 59 `with open('PATH_TO_ROU
 Load up the python script `live_flights.py` and run `python live_flights.py` to start ingesting live flights in the air
 
 #### Map
+**THIS MAP MAY BE OUTDATED FOR 7.X VERSIONS OF KIBANA**
 Use the [Saved Object API](https://www.elastic.co/guide/en/kibana/current/saved-objects-api-create.html) to create a saved object with the JSON from `flight_demo.json`. Be sure to also import the index pattern saved object `live_flights_index_pattern.json`
 
 The following curl command should work:

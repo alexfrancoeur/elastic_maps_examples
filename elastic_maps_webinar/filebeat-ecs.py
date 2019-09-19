@@ -10,7 +10,7 @@ import pytz
 import uuid
 
 try:
-    es = elasticsearch.Elasticsearch(["localhost"],port=9200)
+    es = elasticsearch.Elasticsearch(["localhost"],port=9200,http_auth=("elastic","changeme"))
 except:
     print "unable to es"
 
