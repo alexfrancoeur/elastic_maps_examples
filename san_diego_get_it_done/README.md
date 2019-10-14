@@ -29,7 +29,7 @@ Download this data as a CSV and use the [file upload](https://www.elastic.co/blo
   "lat": {
     "type": "double"
   },
-  "long": {
+  "lng": {
     "type": "double"
   },
   "park_name": {
@@ -73,7 +73,7 @@ Download this data as a CSV and use the [file upload](https://www.elastic.co/blo
     {
       "set": {
         "field": "location",
-        "value": "{{lat}},{{long}}"
+        "value": "{{lat}},{{lng}}"
       }
     }
   ]
